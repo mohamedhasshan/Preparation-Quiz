@@ -1,0 +1,478 @@
+* {
+	color:black;
+	margin: 0;
+	margin-bottom: -100px;
+	padding: 5px;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background-color: white;
+	color: black;
+
+}
+
+.header {
+	min-height: 100vh;
+	width: 100%;
+	background-color: white;
+	color: black;
+}
+
+nav {
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+}
+nav h1 {
+	margin:auto;
+	color: #000;
+}
+
+nav img {
+	width: 150px;
+	margin-left: 30px;
+	height: 120px;
+}
+
+.nav-links {
+	flex: 1;
+	text-align: right;
+}
+
+.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+
+.nav-links ul li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.nav-links ul li::after {
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+	width: 100%
+}
+
+.text-box {
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text-box h1 {
+	font-size: 40px;
+	color: black;
+}
+
+.text-box p {
+	margin: 120px 0 -60px;
+	font-size: 20px;
+}
+
+
+
+.text-boxx {
+	margin-top: 100px;
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text-boxx h1 {
+	margin-top: 20px;
+	color: black;
+}
+
+.text-boxx h2 {
+	margin:25px 0;
+	font-size: 40px;
+	color: black;
+}
+
+
+
+.text-boxx h3 {
+	margin:25px 0;
+	font-size: 30px;
+	color: black;
+}
+
+.text-boxx p {
+	margin: 10px 0 40px;
+	font-size: 18px;
+	color: black;
+}
+
+
+.text-boxx table{
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+	font-size: 16px;
+}
+.text-boxx table th, .text-boxx table tr {
+    padding: 20px;
+    color: black;
+}
+
+.text-boxx button {
+	margin-top: 100px;
+	font-size: 15px;
+	padding: 5px 5px;
+	border-radius:8px; 
+}
+
+.text-boxx form > input {
+    font-size: 15px;
+    padding: 5px 5px;
+    border-radius: 8px;
+}
+
+.text-boxx table td input {
+    margin-left: 20px;
+    font-size: 22px
+}
+
+.text-boxx form {
+	color: black;
+	margin: inherit;
+}
+
+.hero-btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #000;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+hero-bth:hover {
+	border: 1px solid #f44336;
+	background: #f44336;
+	transition: 1s;
+}
+
+.quiz {
+	margin-top: 400px;
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.quiz h1 {
+	margin-top: 20px;
+	color: black;
+}
+
+.quiz h2 {
+	margin:0px 0 200px;
+	font-size: 40px;
+	color: black;
+}
+
+
+
+.quiz h3 {
+	margin:25px 0;
+	font-size: 30px;
+	color: black;
+}
+
+.quiz p {
+	margin: 10px 0 40px;
+	font-size: 18px;
+	color: black;
+}
+
+.quiz table{
+	display: flex;
+	justify-content: center;
+	margin: 150px 0;
+	font-size: 16px;
+}
+.quiz table th, .quiz table tr {
+    padding: 20px;
+    color: black;
+}
+
+.quiz form > input {
+    font-size: 15px;
+    padding: 5px 8px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.quiz table td input {
+	margin-bottom:100px;
+    margin-left: 10px;
+    font-size: 15px
+}
+
+.quiz form {
+	color: black;
+	margin: inherit;
+	padding: 30px;
+}
+
+.quiz2 {
+	margin-top: 350px;
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.quiz2 h1 {
+	margin-top: 20px;
+	color: black;
+}
+.quiz2 h2 {
+	margin-top:400px;
+	font-size: 30px;
+	color: black;
+}
+
+
+
+.quiz2 h3 {
+	margin:25px 0;
+	font-size: 30px;
+	color: black;
+}
+
+.quiz2 p {
+	margin: 10px 0 40px;
+	font-size: 18px;
+	color: black;
+}
+
+.quiz2 table{
+	display: flex;
+	justify-content: center;
+	margin: 150px 0;
+	font-size: 13px;
+}
+.quiz2 table th, .quiz table tr {
+    padding: 20px;
+    color: black;
+    
+}
+
+.quiz2 form > input {
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.quiz2 table td input {
+	margin-bottom:100px;
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.quiz2 form {
+	color: black;
+	margin: inherit;
+	padding: 0px;
+}
+
+nav .fa {
+	display: none;
+}
+/* @media(max-width: 700px) {
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links{
+        padding: 30px;
+    }
+} */
+
+/* --- membership rates ---  */
+.membership-rates {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding: 100px 0 0 0;
+	height: 100vh;
+	background-color: black;
+}
+
+h1 {
+	margin-top: 150px;
+	font-size: 36px;
+	font-weight: 600;
+}
+
+p {
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.row {
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.membership-col {
+	flex-basis: 31%;
+	background: #fff3f3;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	color: blue;
+}
+
+.membership-col:hover {
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.membership-col h3 {
+	border-bottom: 1px solid black;
+	width: 80%;
+	margin: 0 auto 10px;
+}
+
+h3 {
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+.months-col {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.membership-col h3 {
+	border-bottom: 1px solid black;
+}
+
+.membership-terms {
+	font-size: 13px;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	margin-bottom: 5%;
+}
+
+@media ( max-width : 700px) {
+	.row {
+		flex-direction: column;
+	}
+}
+
+/* --- personal training---  */
+.personal-training {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding: 100px 0 0 0;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+}
+
+.personal-training p {
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.personal-training table {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+	text-align: center;
+}
+
+.pt-row {
+	width: 80%;
+	margin: 5% auto 0;
+	display: flex;
+	justify-content: space-between;
+	color: black;
+}
+
+.pt-col {
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+.pt-col img {
+	width: 100%;
+}
